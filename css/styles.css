@@ -1,4 +1,4 @@
-/* Reset and General Styles */
+/* Stilimi Gjeneral */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header Styles */
+/* Stilimi i Kokes */
 header {
     background: black;
     color: white;
@@ -47,7 +47,7 @@ nav {
     font-size: 16px;
 }
 
-/* Hero Section */
+/* Seksioni Hero */
 .hero {
     position: relative;
     text-align: center;
@@ -80,7 +80,7 @@ nav {
     margin-top: 10px;
 }
 
-/* Product Highlights */
+/* Nenvizimi i Produkteve */
 .product-highlights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -93,7 +93,7 @@ nav {
     width: 100%;
 }
 
-/* Store Locator */
+/* Lokacioni i dyqanit */
 .store-locator {
     background: #f0f0f0;
     padding: 30px;
@@ -104,7 +104,7 @@ nav {
     font-size: 24px;
 }
 
-/* Featured Products */
+/* Produketet */
 .featured-products {
     padding: 30px;
     text-align: center;
@@ -121,7 +121,7 @@ nav {
     width: 150px;
 }
 
-/* Testimonials */
+/* Deshmite */
 .testimonials {
     background: #ddd;
     padding: 30px;
@@ -133,7 +133,7 @@ nav {
     font-style: italic;
 }
 
-/* Footer */
+/* mbyllja */
 footer {
     background: black;
     color: white;
@@ -153,7 +153,7 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsive Design */
+/* Dizanji Responsive */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
